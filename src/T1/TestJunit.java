@@ -10,6 +10,6 @@ public class TestJunit {
 
     @Test
     public void testPrintMessage() {
-        assertEquals(message,messageUtil.printMessage());
+        assertEquals(message,messageUtil.printMessage());   //assertTest
     }
 }
