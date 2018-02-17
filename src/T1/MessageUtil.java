@@ -20,4 +20,9 @@ public class MessageUtil {
         System.out.println(message);
         return message;
     }
+
+    //returns salutation message
+    public String salutationMessage() {
+        return  "Hi!" + message;
+    }
 }
